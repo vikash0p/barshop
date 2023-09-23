@@ -1,0 +1,24 @@
+.buttonNext,
+.buttonPrev {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: #ffffff;
+  border-radius: 50%;
+  --swiper-navigation-size: 16px !important;
+
+  color: #7e7e7e !important;
+}
+.buttonNext:hover,
+.buttonPrev:hover {
+  width: 50px !important;
+  height: 50px !important;
+  background-color: black;
+  border-radius: 50%;
+  color: white !important;
+}
+.pagination > span {
+  background-color: #f89808 !important;
+  width: 15px !important;
+  height: 15px !important;
+  border: 1px solid black !important;
+}
