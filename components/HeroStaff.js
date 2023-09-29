@@ -5,8 +5,8 @@ const HeroStaff = () => {
     return (
         <div className='w-full min-h-screen bg-yellow'>
             <div className=" container mx-auto h-full grid grid-cols-1 lg:grid-cols-2 ">
-                <div className='space-y-7 mt-20'>
-                    <h1 className='text-5xl font-semibold uppercase'>A beer of elegance</h1>
+                <div className='space-y-7 px-1 lg:px-0 mt-20'>
+                    <h1 className='text-5xl font-semibold uppercase text-center'>A beer of elegance</h1>
                     <p>Vestibulum ac finibus nulla. Praesent posuere, nibh a bibendum tincidunt, nulla lectus varius nisi, vel pulvinar magna lectus at turpis. Cras nibh augue, ultrices quis arcu nec, viverra hendrerit ipsum.</p>
                     <div className='space-y-16'>
                         <div className='space-y-4'>

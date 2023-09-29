@@ -22,13 +22,13 @@ export default function Testimonial() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=''>
-                    <div className='w-[80%] mx-auto h-full flex flex-row place-items-center gap-6'>
+                    <div className='w-[80%] mx-auto h-full flex flex-col lg:flex-row place-items-center gap-6'>
                         <Image src="/about/test-2.jpg" alt="images" width={200} height={200} />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facilis minima necessitatibus, repellat molestiae ad asperiores sit blanditiis recusandae cumque quis sed ex neque, deleniti natus, hic qui voluptate. Corporis placeat amet reprehenderit provident accusamus quam hic laboriosam excepturi deleniti quaerat, iusto sequi? Quisquam possimus ipsam nisi similique odit eaque consequuntur in, sit ut voluptatem at atque officiis a. Ea?</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide className=''>
-                    <div className='w-[80%] mx-auto h-full flex flex-row place-items-center gap-6'>
+                    <div className='w-[80%] mx-auto h-full flex flex-col lg:flex-row place-items-center gap-6'>
                         <Image src="/about/test-3.jpg" alt="images" width={200} height={200} />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id facilis minima necessitatibus, repellat molestiae ad asperiores sit blanditiis recusandae cumque quis sed ex neque, deleniti natus, hic qui voluptate. Corporis placeat amet reprehenderit provident accusamus quam hic laboriosam excepturi deleniti quaerat, iusto sequi? Quisquam possimus ipsam nisi similique odit eaque consequuntur in, sit ut voluptatem at atque officiis a. Ea?</p>
                     </div>

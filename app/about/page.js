@@ -15,7 +15,7 @@ const About = () => {
       <Topbar >
         <CenterText title='About' tilte1='Home / about' />
       </Topbar>
-      <div className='w-full min-h-[120vh] bg-white text-black py-16 '>
+      <div className='w-full min-h-[100vh] bg-white text-black py-16 '>
         <div className=' container h-[70%] mx-auto flex flex-row gap-10 '>
           <div className='basis-[70%] '>
             <Image src={'/about/abou-1.jpg'} alt='cheifImage' width={500} height={500} className='w-full h-[100%] object-cover border-8 border-black ' />
