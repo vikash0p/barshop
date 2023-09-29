@@ -10,3 +10,10 @@
   -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
+.backgroundImages{
+  background-image: url(../public/about/top.jpg);
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  position: relative;
+}

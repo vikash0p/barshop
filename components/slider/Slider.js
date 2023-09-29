@@ -40,7 +40,7 @@ export default function Slider() {
                 }}
                 mousewheel={true}
                 keyboard={true}
-                swiper
+                swiper='true'
                 modules={[Navigation, Pagination, Mousewheel, Keyboard, Autoplay]}
                 className="w-full h-screen mySwiper "
             >

@@ -6,17 +6,12 @@ import React from 'react'
 const Home = () => {
   return (
     <div>
-      
       <Slider />
-      
       <Making />
       <AboutChese />
       <Story />
       <SliderOne />
       <Client />
-
-
-
     </div>
   )
 }

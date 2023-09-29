@@ -1,3 +1,4 @@
+
 export const sliderdata = [
     {
         id: 1,
@@ -64,10 +65,10 @@ export const storyData = [
     },
 
 ]
-export const clientData=[
+export const clientData = [
     {
-        id:1,
-        img:'/home/client-1.png'
+        id: 1,
+        img: '/home/client-1.png'
     },
     {
         id: 2,
@@ -90,3 +91,76 @@ export const clientData=[
     },
 
 ]
+
+export const links = [
+    {
+        id: 1,
+        link: '/',
+        name: 'Home',
+    },
+    {
+        id: 2,
+        link: '/about',
+        name: 'About'
+    },
+    {
+        id: 3,
+        link: '/shop',
+        name: 'Shop'
+    },
+    {
+        id: 4,
+        link: '/contact',
+        name: 'Contact'
+    }
+]
+
+
+
+export const curr=[
+    {
+        id:1,
+        img: '/home/i-currency-1.png',
+        title:"USD",
+    },
+        {
+        id:2,
+        img: '/home/i-currency-2.png',
+        title :'EUR'
+    },
+
+    {
+        id: 13,
+        img: '/home/i-currency-3.png',
+        title: 'GBp'
+
+    },
+
+    {
+        id: 15,
+        img: '/home/i-currency-4.png',
+        title:"AUD"
+    },
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
