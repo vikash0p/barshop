@@ -2,6 +2,7 @@
 import { add, remove } from '@/Redux-toolkit/CartSlice'
 import React from 'react'
 import { useDispatch } from 'react-redux'
+import { toast } from 'react-toastify';
 
 
 const Cart = ({id}) => {
@@ -9,6 +10,17 @@ const Cart = ({id}) => {
 
     const ClickHandler= (id) =>{
             dispatch(add(id))
+
+      toast.success('your product is add Successfully!', {
+        position: "top-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+      });
     }
   return (
     <div>

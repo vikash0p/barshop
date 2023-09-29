@@ -21,6 +21,7 @@ const Navbar = () => {
     const pathname = usePathname()
     const toggleSidebar = () => {
         setIsOpen(!isOpen);
+        
 
     };
     useEffect(() => {

@@ -1,12 +1,31 @@
-import CenterText from "@/Reausable/CenterText";
-import Topbar from "@/Reausable/Topbar";
-import Cart from "@/components/Cart";
+"use client"
 import Image from "next/image";
 import Link from "next/link";
+import CenterText from "@/Reausable/CenterText";
+import Topbar from "@/Reausable/Topbar";
+import axios from 'axios'
+import Cart from "@/components/Cart";
+import { useQuery } from "react-query";
+import { toast } from 'react-toastify';
 
-const page = async () => {
-    const response = await fetch('https://api.punkapi.com/v2/beers');
-    const data = await response.json();
+const fetchUsers = async () => {
+    const response = await axios.get('https://api.punkapi.com/v2/beers');
+    return response.data;
+};
+
+const ShopData = () => {
+    const { data, error, isLoading } = useQuery('users', fetchUsers);
+
+
+    if (isLoading) {
+        return <>
+        <h1>loading...</h1>
+        </>
+    }
+
+    if (error) {
+        return <p>Error: {error.message}</p>;
+    }
 
     return (
         <>
@@ -41,8 +60,9 @@ const page = async () => {
                 }
             </div>
 
+
         </>
     )
 }
 
-export default page
+export default ShopData
