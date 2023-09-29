@@ -23,7 +23,7 @@ const Fromfield = () => {
     return (
         <form onSubmit={handleSubmit} className="max-w-xl mx-auto mt-8 p-6 border border-gray text-black shadow-lg">
             <div className="mb-4">
-                <label htmlFor="name" className="after:content-['*'] after:ml-0.5 after:text-red-500  block text-gray-600 font-medium">Name</label>
+                <label htmlFor="name" className="text-white after:content-['*'] after:ml-0.5 after:text-red-500  block text-gray-600 font-medium">Name</label>
                 <input
                     type="text"
                     id="name"
@@ -35,7 +35,7 @@ const Fromfield = () => {
                 />
             </div>
             <div className="mb-4">
-                <label htmlFor="email" className="after:content-['*'] after:ml-0.5 after:text-red-500  block text-gray-600 font-medium">Email</label>
+                <label htmlFor="email" className=" text-white after:content-['*'] after:ml-0.5 after:text-red-500  block text-gray-600 font-medium">Email</label>
                 <input
                     type="email"
                     id="email"
@@ -47,7 +47,7 @@ const Fromfield = () => {
                 />
             </div>
             <div className="mb-4">
-                <label htmlFor="subject" className="after:content-['*'] after:ml-0.5 after:text-red-500  block text-gray-600 font-medium">Subject</label>
+                <label htmlFor="subject" className=" text-white after:content-['*'] after:ml-0.5 after:text-red-500  block text-gray-600 font-medium">Subject</label>
                 <input
                     type="text"
                     id="subject"
@@ -59,7 +59,7 @@ const Fromfield = () => {
                 />
             </div>
             <div className="mb-4">
-                <label htmlFor="message" className="after:content-['*'] after:ml-0.5 after:text-red-500  block text-gray-600 font-medium">Message</label>
+                <label htmlFor="message" className="text-white after:content-['*'] after:ml-0.5 after:text-red-500  block text-gray-600 font-medium">Message</label>
                 <textarea
                     id="message"
                     name="message"
