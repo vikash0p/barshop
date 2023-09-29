@@ -1,12 +1,12 @@
-import { Footer,Navbar } from '@/components'
+import { Footer, Navbar } from '@/components'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import CartProvider from '@/Redux-toolkit/CartProvider'
-
+import Toastfly from '@/components/Toastfly'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Barshop',
+  title: 'BarShop-(non-alchoal_beer)',
   description: 'This application is the barshop of the india estiblished 1980.',
 }
 
@@ -17,6 +17,7 @@ export default function RootLayout({ children }) {
         <CartProvider>
           <Navbar />
           {children}
+          <Toastfly />
           <Footer />
         </CartProvider>
       </body>

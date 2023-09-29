@@ -112,6 +112,11 @@ export const links = [
         id: 4,
         link: '/contact',
         name: 'Contact'
+    },
+    {
+        id: 5,
+        link: '/signup',
+        name: 'SignUp'
     }
 ]
 
@@ -141,6 +146,7 @@ export const curr=[
         img: '/home/i-currency-4.png',
         title:"AUD"
     },
+    
 
 
 ]
